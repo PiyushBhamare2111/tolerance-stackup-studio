@@ -1,0 +1,10 @@
+step,characteristic,char_class,lsl,usl,method,sample_size,frequency,control_method,required_cpk,reaction_plan,pfmea_id,stack_dimension
+OP10 Bore housing,Housing bore depth,SC,53.20,53.36,CMM / depth micrometer,5,Every 2 h,X̄-R chart,1.33,"Stop, quarantine back to last good subgroup, adjust offset, 100% sort",F1,Housing bore depth (A)
+OP10 Bore housing,First piece after tool change,SC,53.20,53.36,CMM,1,Each tool change,First-piece approval,,Do not release until approved,F2,
+OP20 Turn spacer,Spacer length,SC,24.95,25.05,Micrometer,5,Every 2 h,X̄-R chart,1.33,"Stop, quarantine, correct stop setting, 100% sort",F3,Spacer length (C)
+Receiving,Bearing 1 width,,13.88,14.00,Supplier CoC + micrometer audit,5 per lot,Each lot,Incoming inspection,,Reject lot and raise SCAR,,Bearing 1 width (B)
+Receiving,Bearing 2 width,,13.88,14.00,Supplier CoC + micrometer audit,5 per lot,Each lot,Incoming inspection,,Reject lot and raise SCAR,,Bearing 2 width (D)
+OP30 Press bearings,Bearing seated (force-distance window),,,,Press monitor,100%,Every part,Automatic monitoring,,Auto-reject to red bin; engineer review,F4,
+OP30 Press bearings,Bearing part number,CC,,,Barcode scan,100%,Every part,Poka-yoke interlock,,Press locked out; supervisor to clear,F5,
+OP30 Install retaining ring,Ring seated in groove,CC,,,Ring-seated sensor,100%,Every part,Error-proofing sensor,,Auto-reject; check applicator,F7,
+OP40 End play check,Shaft end play,SC,0.10,0.60,Dial indicator fixture,100%,Every part,Gauge check + daily master,,Quarantine since last master check; re-verify gauge,F6,

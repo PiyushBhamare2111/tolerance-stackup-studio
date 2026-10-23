@@ -1,0 +1,5 @@
+name,nominal,upper,lower,direction,cp,distribution,source
+Housing bore depth (A),53.28,0.08,-0.08,1,1.33,normal,HSG-101 dim 4 (CNC bored)
+Bearing 1 width (B),14.00,0.00,-0.12,-1,1.0,normal,6204 bearing - ISO 492 Normal class
+Spacer length (C),25.00,0.05,-0.05,-1,1.33,normal,SPC-102 dim 2 (CNC turned)
+Bearing 2 width (D),14.00,0.00,-0.12,-1,1.0,normal,6204 bearing - ISO 492 Normal class

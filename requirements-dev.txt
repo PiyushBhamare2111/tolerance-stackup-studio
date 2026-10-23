@@ -1,0 +1,4 @@
+-r requirements.txt
+pytest==9.1.1
+playwright==1.64.1  # only for scripts/make_media.py
+pywin32; sys_platform == "win32"  # only for export_workbook.py --verify

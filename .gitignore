@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*_report.html
+*_points.csv
+.DS_Store
+Thumbs.db
